@@ -20,6 +20,23 @@ songs = [
 
 puts "hello"
 
+def run(songs)
+  $stdout.puts("Please enter a command:")
+  user_input = gets
+  if user_input == 'exit'
+    exit_jukebox
+  end
+  if user_input == 'help'
+    help
+  end
+  if user_input == 'play'
+    play(songs)
+  end
+  if user_input == 'list'
+    list(songs)
+  end
+end
+
 def help
   $stdout.puts(/I accept the following commands:/)
   $stdout.puts(/- help : displays this help message/)
@@ -55,21 +72,4 @@ end
 
 def exit_jukebox
   $stdout.puts('Goodbye')
-end
-
-def run(songs)
-  $stdout.puts("Please enter a command:")
-  user_input = gets
-  if user_input == 'exit'
-    exit_jukebox
-  end
-  if user_input == 'help'
-    help
-  end
-  if user_input == 'play'
-    play(songs)
-  end
-  if user_input == 'list'
-    list(songs)
-  end
 end
