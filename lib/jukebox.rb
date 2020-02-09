@@ -19,6 +19,8 @@ songs = [
 # end
 
 puts "hello"
+help 
+
 def help
   $stdout.puts(/I accept the following commands:/)
   $stdout.puts(/- help : displays this help message/)
