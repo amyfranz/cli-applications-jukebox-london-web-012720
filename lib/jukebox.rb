@@ -26,13 +26,13 @@ def run(songs)
   $stdout.puts("Please enter a command:")
   user_input = gets
   #binding.pry
-  if user_input == 'exit'
+  if user_input == "exit\n"
     exit_jukebox
   end
-  if user_input == 'help'
+  if user_input == "help\n"
     help
   end
-  if user_input == 'play'
+  if user_input == "play\n"
     play(songs)
   end
   if user_input == "list\n"
