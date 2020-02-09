@@ -58,7 +58,7 @@ def exit_jukebox
 end
 
 def run(songs)
-  $stdout.puts(/Please enter a command:/)
+  $stdout.puts("Please enter a command:")
   user_input = gets
   if user_input == 'exit'
     exit_jukebox
