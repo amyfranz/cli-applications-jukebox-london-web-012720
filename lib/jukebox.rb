@@ -25,7 +25,7 @@ puts "hello"
 def run(songs)
   $stdout.puts("Please enter a command:")
   user_input = gets
-  binding.pry
+  #binding.pry
   if user_input == 'exit'
     exit_jukebox
   end
