@@ -35,7 +35,7 @@ def run(songs)
   if user_input == 'play'
     play(songs)
   end
-  if user_input == 'list\n'
+  if user_input == "list\n"
     list(songs)
   end
 end
