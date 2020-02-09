@@ -10,6 +10,15 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
+# puts "Enter your name:"
+# users_name = gets.strip
+# puts say_hello(users_name)
+
+# def say_hello(name)
+#   "Hi #{name}!"
+# end
+
+puts "hello"
 def help
   $stdout.puts(/I accept the following commands:/)
   $stdout.puts(/- help : displays this help message/)
