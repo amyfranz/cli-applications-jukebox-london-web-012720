@@ -19,7 +19,6 @@ songs = [
 # end
 
 puts "hello"
-self.help 
 
 def help
   $stdout.puts(/I accept the following commands:/)
